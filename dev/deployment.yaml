@@ -18,4 +18,4 @@ spec:
           ports:
             - containerPort: 8000
       imagePullSecrets:
-        - name: my-registry-secret
+        - name: image-pull-secret.yaml
