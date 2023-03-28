@@ -7,7 +7,7 @@ spec:
   project: default
 
   source:
-    repoURL: https://github.com/virajamenity/user_management.git
+    repoURL: https://github.com/YagnikThanki/user_managment_ci_cd.git
     targetRevision: HEAD
     path: dev
   destination:

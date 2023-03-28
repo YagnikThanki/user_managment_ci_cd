@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: backendapi
-          image: ghcr.io/virajamenity/backend_api:latest
+          image: ghcr.io/YagnikThanki/backend_api:latest
           ports:
             - containerPort: 8000
       imagePullSecrets:
