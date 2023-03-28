@@ -40,11 +40,11 @@ jobs:
 
       - name: Docker Build & Image Push
         run: |
-          export BACKEND_IMAGE='ghcr.io/virajamenity/backend_api:latest'
+          export BACKEND_IMAGE='ghcr.io/yagnikthanki/backend_api:latest'
           export NGINX_IMAGE='ngnix'
           export IMAGE='test'
 
           docker images ls
           docker-compose -f docker-compose.yml build
-          docker login ghcr.io -u virajamenity -p ${{ secrets.TOKEN_GITHUB }}
-          docker push ghcr.io/virajamenity/backend_api:latest
+          docker login ghcr.io -u yagnikthanki -p ${{ secrets.TOKEN_GITHUB }}
+          docker push ghcr.io/yagnikthanki/backend_api:latest
